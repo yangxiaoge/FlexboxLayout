@@ -26,8 +26,8 @@ public class MainActivity extends AppCompatActivity {
 
 
     private void initData() {
-        String[] tags = {"婚姻育儿", "散文", "设计", "上班这点事儿", "影视天堂", "大学生活", "美人说",
-                "运动和健身", "工具癖", "生活家", "程序员", "想法", "短篇小说", "美食", "教育", "心理", "奇思妙想", "美食", "摄影"};
+        String[] tags = {"人民的名义", "财经·投资·理财", "诗", "体育", "运动&健康", "大学生活", "青春","王者荣耀", "读书",
+                "工具癖", "小说", "Python", "爱情", "短篇小说", "世间事", "教育", "心理", "奇思妙想", "美食", "摄影","前端","Android","iOS"};
 
         for (int i = 0; i < tags.length; i++) {
             flexboxLayout.addView(createItemView(i, tags[i]));
